@@ -123,3 +123,7 @@ fi
 if [ -x /usr/bin/mint-fortune ]; then
      /usr/bin/mint-fortune
 fi
+
+# add cuda to PATH
+export PATH=$PATH:/usr/local/cuda/bin
+
