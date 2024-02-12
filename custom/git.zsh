@@ -1,19 +1,18 @@
 #  Git checkout helpers
-#     * gco: Overridde gco to default to going back to master
 #     * gfco: Fetch a branch from origin and check out locally
 #     * gfm: Refresh master and merge it into local branch
 # ====================
 
-unalias gco
-
-function gco() {
-  if [[ "$#" == 0 ]]; then
-    git checkout $(git_main_branch)
-  else
-    git checkout ${*}
-  fi
-}
-compdef _git gco=git-branch
+# unalias gco
+# 
+# function gco() {
+#   if [[ "$#" == 0 ]]; then
+#     git checkout $(git_main_branch)
+#   else
+#     git checkout ${*}
+#   fi
+# }
+# compdef _git gco=git-branch
 
 function gfco() {
   # if [[ "$#" != 1]]; then

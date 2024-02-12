@@ -1,24 +1,24 @@
-#   Set Paths
-#   ------------------------------------------------------------
-    export PATH="$PATH:/usr/local/bin/"
-    export PATH="/usr/local/git/bin:/sw/bin/:/usr/local/bin:/usr/local/:/usr/local/sbin:/usr/local/mysql/bin:$PATH"
-
-#   Set Default Editor (change 'GNU Emacs' to be the editor of your choice)
-#   ------------------------------------------------------------
-    export EDITOR='vim'
-
-#   Set default blocksize for ls, df, du
-#   from this: http://hints.macworld.com/comment.php?mode=view&cid=24491
-#   ------------------------------------------------------------
-    export BLOCKSIZE=1k
-
-#   Add color to terminal
-#   (this is all commented out as I use Mac Terminal Profiles)
-#   from http://osxdaily.com/2012/02/21/add-color-to-the-terminal-in-mac-os-x/
-#   ------------------------------------------------------------
-#   export CLICOLOR=1
-   export LSCOLORS=ExFxBxDxCxegedabagacad
-
+# #   Set Paths
+# #   ------------------------------------------------------------
+#     export PATH="$PATH:/usr/local/bin/"
+#     export PATH="/usr/local/git/bin:/sw/bin/:/usr/local/bin:/usr/local/:/usr/local/sbin:/usr/local/mysql/bin:$PATH"
+# 
+# #   Set Default Editor (change 'GNU Emacs' to be the editor of your choice)
+# #   ------------------------------------------------------------
+#     export EDITOR='vim'
+# 
+# #   Set default blocksize for ls, df, du
+# #   from this: http://hints.macworld.com/comment.php?mode=view&cid=24491
+# #   ------------------------------------------------------------
+#     export BLOCKSIZE=1k
+# 
+# #   Add color to terminal
+# #   (this is all commented out as I use Mac Terminal Profiles)
+# #   from http://osxdaily.com/2012/02/21/add-color-to-the-terminal-in-mac-os-x/
+# #   ------------------------------------------------------------
+# #   export CLICOLOR=1
+#    export LSCOLORS=ExFxBxDxCxegedabagacad
+# 
 
 #   -----------------------------
 #   MAKE TERMINAL BETTER
@@ -60,8 +60,8 @@ alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\
 
 # Environment setup
 
-export PATH="$HOME/.bin:$PATH"
-fpath=(~/.zsh $fpath)
+# export PATH="$HOME/.bin:$PATH"
+# fpath=(~/.zsh $fpath)
 
 # export PYENV_ROOT="$HOME/.pyenv"
 # export PATH="$PYENV_ROOT/bin:$PATH"
@@ -70,5 +70,5 @@ fpath=(~/.zsh $fpath)
 # export NVM_DIR=~/.nvm
 # source $(brew --prefix nvm)/nvm.sh
 
-export LDFLAGS="-L/usr/local/opt/openssl/lib"
-export CPPFLAGS="-I/usr/local/opt/openssl/include"
+# export LDFLAGS="-L/usr/local/opt/openssl/lib"
+# export CPPFLAGS="-I/usr/local/opt/openssl/include"
